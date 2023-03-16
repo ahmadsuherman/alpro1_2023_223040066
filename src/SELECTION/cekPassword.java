@@ -10,7 +10,7 @@ public class cekPassword {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.print("Ketikkan bilangan: "); password = sc.next();
+		System.out.print("Ketikkan password: "); password = sc.next();
 		if (password.contentEquals("dini")) {
 			System.out.println("Login Sukses");
 		}
